@@ -5,7 +5,7 @@ create table Profesores (
 	dni varchar(9) primary key,
 	nombre varchar(40),
 	apellido1 varchar(40),
-    apellido2 varchar(40),
+	apellido2 varchar(40),
 	direccion varchar(80),
 	titulo varchar(40),
 	gana decimal(10, 2) not null,
